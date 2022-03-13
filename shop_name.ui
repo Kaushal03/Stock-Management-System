@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>985</width>
+    <width>1082</width>
     <height>828</height>
    </rect>
   </property>
@@ -22,7 +22,7 @@ background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0
     <rect>
      <x>0</x>
      <y>10</y>
-     <width>941</width>
+     <width>1011</width>
      <height>761</height>
     </rect>
    </property>
@@ -350,6 +350,9 @@ font-weight: bold;</string>
     <property name="placeholderText">
      <string>Shop Name</string>
     </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLineEdit" name="ownername">
     <property name="geometry">
@@ -370,6 +373,9 @@ font-weight: bold;</string>
     <property name="placeholderText">
      <string>Owner's Name</string>
     </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLineEdit" name="username">
     <property name="geometry">
@@ -389,6 +395,9 @@ font-weight: bold;</string>
     </property>
     <property name="placeholderText">
      <string>Username</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLineEdit" name="password">
@@ -413,6 +422,9 @@ font-weight: bold;</string>
     <property name="placeholderText">
      <string>Password</string>
     </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLineEdit" name="emailid">
     <property name="geometry">
@@ -436,6 +448,9 @@ font-weight: bold;</string>
     <property name="placeholderText">
      <string>Email ID</string>
     </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLineEdit" name="mobileno">
     <property name="geometry">
@@ -455,6 +470,9 @@ font-weight: bold;</string>
     </property>
     <property name="placeholderText">
      <string>Mobile Number</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLineEdit" name="aadharnumber">
@@ -476,6 +494,9 @@ font-weight: bold;</string>
     <property name="placeholderText">
      <string>Aadhar Number</string>
     </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLineEdit" name="pannumber">
     <property name="geometry">
@@ -495,6 +516,9 @@ font-weight: bold;</string>
     </property>
     <property name="placeholderText">
      <string>PAN Number</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="submitbtn">
@@ -572,25 +596,21 @@ font-size: 30px;
      <string>Address</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="address">
+   <widget class="QPlainTextEdit" name="address">
     <property name="geometry">
      <rect>
       <x>560</x>
-      <y>460</y>
+      <y>470</y>
       <width>371</width>
-      <height>121</height>
+      <height>111</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">font-size:20px;
 font-weight: bold;</string>
     </property>
-    <property name="html">
-     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:20px; font-weight:600; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:27px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.25pt; font-weight:400; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <property name="centerOnScroll">
+     <bool>true</bool>
     </property>
     <property name="placeholderText">
      <string>Address</string>
