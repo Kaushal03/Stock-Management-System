@@ -42,9 +42,9 @@ class MainWindow(QMainWindow):
             time.sleep(0.05)
             self.pbar.setValue(i)
         
-        signup=HotelMenu()
+        '''signup=HotelMenu()
         widget.addWidget(signup)
-        widget.setCurrentIndex(widget.currentIndex()+1)
+        widget.setCurrentIndex(widget.currentIndex()+1)'''
 
 #############################################################################
 app=QApplication(sys.argv)
